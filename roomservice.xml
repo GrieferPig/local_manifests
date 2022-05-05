@@ -2,8 +2,24 @@
 <manifest>
 
   <!-- Remotes -->
+  <remote name="private"
+          fetch="ssh://git@github.com/" />
 
   <!-- Device trees -->
+  <remove-project path="device/qcom/msm8909w/common" name="device/qcom/common" />
+  <remove-project path="device/qcom/msm8909w/sepolicy" name="device/qcom/sepolicy" />
+  <remove-project path="device/qcom/msm8909w/opensource/softap" name="platform/system/qcom" />
+  <remove-project path="device/qcom/msm8909w/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" />
+  <remove-project path="device/qcom/msm8909w/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" />
+  <remove-project path="device/qcom/msm8909w/opensource/display-frameworks"
+                  name="platform/vendor/qcom-opensource/display-frameworks" />
+  <remove-project path="device/qcom/msm8909w/opensource/dpm" name="platform/vendor/qcom-opensource/dpm" />
+  <remove-project path="device/qcom/msm8909w/opensource/kernel-tests" name="platform/vendor/qcom-opensource/kernel/kernel-tests" />
+  <remove-project path="device/qcom/msm8909w/opensource/location" name="platform/vendor/qcom-opensource/location" />
+  <remove-project path="device/qcom/msm8909w/opensource/time-services" name="platform/vendor/qcom-opensource/time-services" />
+  <remove-project path="device/qcom/msm8909w/opensource/wlan/prima" name="platform/vendor/qcom-opensource/wlan/prima" />
+  <remove-project path="device/qcom/msm8909w" name="platform/vendor/qcom/msm8909w" />
+  <project path="device/qcom/msm8909w" name="XDPT-Core-Devs/qaep_device_qcom_msm8909w" remote="private" revision="I13" />
 
   <!-- Vendor trees -->
 
