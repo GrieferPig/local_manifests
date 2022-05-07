@@ -28,4 +28,9 @@
   <project path="packages/apps/PackageInstaller" name="XDPT-Core-Devs/qaep_packages_apps_PackageInstaller"
            remote="private" revision="LAW.BR.2.0_RB1.07.01.01.177.017" />
 
+  <!-- SELinux -->
+  <remove-project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/selinux" name="XDPT-Core-Devs/qaep_external_selinux"
+           remote="private" revision="LAW.BR.2.0_RB1.07.01.01.177.017" />
+
 </manifest>
