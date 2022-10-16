@@ -32,5 +32,9 @@
   <remove-project path="external/selinux" name="platform/external/selinux" />
   <project path="external/selinux" name="XDPT-Core-Devs/qaep_external_selinux"
            remote="private" revision="LAW.BR.2.0_RB1.07.01.01.177.017" />
+  
+  <!-- YeetOS components -->
+  <project path="packages/apps/SetupWizard" name="GrieferPig/yeet_packages_apps_SetupWizard"
+           remote="private" revision="main" />
 
 </manifest>
