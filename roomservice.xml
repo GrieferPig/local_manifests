@@ -19,7 +19,7 @@
   <remove-project path="device/qcom/msm8909w/opensource/time-services" name="platform/vendor/qcom-opensource/time-services" />
   <remove-project path="device/qcom/msm8909w/opensource/wlan/prima" name="platform/vendor/qcom-opensource/wlan/prima" />
   <remove-project path="device/qcom/msm8909w" name="platform/vendor/qcom/msm8909w" />
-  <project path="device/qcom/msm8909w" name="XDPT-Core-Devs/qaep_device_qcom_msm8909w" remote="private" revision="staging/I18" />
+  <project path="device/qcom/msm8909w" name="GrieferPig/qaep_device_qcom_msm8909w" remote="private" revision="staging/I18" />
 
   <!-- Vendor trees -->
 
